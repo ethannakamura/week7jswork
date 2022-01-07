@@ -47,11 +47,11 @@ function superheroaging(name, age) {
     this.age = age;
 
     // JS prototype object can have method
-    this.addyears = () => {
+    this.addAge = () => {
         this.age1 = age + 3
         console.log(` ${this.name} is ${this.age} plus 3.`);
     }
-    this.newyears = () => {
+    this.newAge = () => {
         this.newAge = this.age + 3
         console.log(`${this.name} is ${this.newAge} years old`)
 
